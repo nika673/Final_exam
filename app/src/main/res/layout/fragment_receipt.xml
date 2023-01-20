@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image_receipt"
+            android:layout_width="331dp"
+            android:layout_height="325dp"
+            android:layout_gravity="center"
+
+
+            android:layout_marginHorizontal="22dp"
+            android:layout_marginVertical="16dp"
+            android:visibility='visible'
+            tools:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginHorizontal="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/neutral_black"
+            android:textSize="34sp"
+            tools:text="Oreo Milkshake" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginVertical="2dp"
+            android:layout_marginStart="27.4dp"
+            android:drawablePadding="8.04dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/text2_size"
+            app:drawableStartCompat="@drawable/ic_basket"
+            tools:text="4 ingredients" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/neutral_black"
+            android:textSize="15sp"
+            tools:text="Making a milkshake is honestly as simple as blending 4 ingredients! A generous portion of ice cream, a splash of milk and some flavoring. The best ice cream is to use is full cream, full-fat ice cream because that’s where the flavor is! " />
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginBottom="12dp"
+            android:autoLink="all"
+            android:drawablePadding="6dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:text="For details see video"
+            android:textColor="@color/youtube_gray"
+            android:textSize="15sp"
+            app:drawableStartCompat="@drawable/youtube" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:text="ingredients"
+            android:textColor="@color/neutral_black"
+            android:textSize="21sp" />
+
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="45dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

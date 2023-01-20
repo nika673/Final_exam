@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    first page ,categories-->
+
+    <dimen name="layout_height">187.5dp</dimen>
+    <dimen name="textView_marginT">39dp</dimen>
+    <dimen name="textView_size">28sp</dimen>
+
+
+    <!--    second page, browse by category-->
+    <dimen name="imageView_height">124dp</dimen>
+    <dimen name="textView2_size">38sp</dimen>
+    <dimen name="linear2_marginT">26dp</dimen>
+
+    <dimen name="card2_height">200dp</dimen>
+    <dimen name="card2_marginH">25dp</dimen>
+    <dimen name="card2_marginB">20dp</dimen>
+    <dimen name="card2_radius">10dp</dimen>
+
+    <dimen name="linear22_marginS">20dp</dimen>
+    <dimen name="linear22_marginT">30.75dp</dimen>
+    <dimen name="linear22_marginE">17.5dp</dimen>
+    <dimen name="linear22_marginB">95.25dp</dimen>
+
+
+    <dimen name="text2122_width">125dp</dimen>
+
+    <dimen name="text21_height">18dp</dimen>
+    <dimen name="text21_size">13sp</dimen>
+
+    <dimen name="text22_height">56dp</dimen>
+    <dimen name="text22_size">22sp</dimen>
+
+
+    <!--    third page, activity receipt-->
+
+    <dimen name="image_height">325dp</dimen>
+    <dimen name="image_width">331dp</dimen>
+    <dimen name="image_marginH">22dp</dimen>
+    <dimen name="image_marginV">16dp</dimen>
+
+    <dimen name="image3_radius">15dp</dimen>
+
+
+    <dimen name="all_text_height">41dp</dimen>
+
+    <dimen name="text1_marginH">25dp</dimen>
+    <dimen name="text1_size">34sp</dimen>
+
+
+    <dimen name="text2_marginV">2dp</dimen>
+    <dimen name="text2_marginS">27.4dp</dimen>
+    <dimen name="text2_drawablePadding">8.04dp</dimen>
+    <dimen name="text2_size">15sp</dimen>
+
+    <dimen name="text3_marginB">16dp</dimen>
+
+
+    <dimen name="text4_marginS">21dp</dimen>
+    <dimen name="text4_marginB">12dp</dimen>
+    <dimen name="text4_drawablePadding">6dp</dimen>
+
+    <dimen name="text5_marginB">8dp</dimen>
+    <dimen name="text5_size">21sp</dimen>
+
+
+    <dimen name="linear3_marginS">30dp</dimen>
+    <dimen name="linear3_marginE">5dp</dimen>
+    <dimen name="linear3_marginB">45dp</dimen>
+
+    <dimen name="linear3_text_height">20dp</dimen>
+    <dimen name="linear3_text_drawablePadding">9dp</dimen>
+</resources>

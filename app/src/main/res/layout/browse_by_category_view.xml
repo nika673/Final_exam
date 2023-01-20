@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="25dp"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="10dp"
+    tools:layout_marginTop="20dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:background="@color/teal_700">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30.75dp"
+            android:layout_marginEnd="17.5dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            tools:background="@color/white">
+
+            <TextView
+                android:id="@+id/text21"
+                android:layout_width="125dp"
+                android:layout_height="18dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center_vertical"
+                android:textColor="@color/purple_700"
+                android:textSize="13sp"
+                tools:text="Breakfast" />
+
+            <TextView
+                android:id="@+id/text22"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#151522"
+                android:textSize="25dp"
+                tools:text="Avocado Toast" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            tools:background="@color/teal_200">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/backgrounds/scenic" />
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
