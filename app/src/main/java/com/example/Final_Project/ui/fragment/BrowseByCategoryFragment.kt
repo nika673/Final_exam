@@ -26,7 +26,7 @@ import com.google.android.material.snackbar.Snackbar
 class BrowseByCategoryFragment : Fragment(R.layout.fragment_browse_by_category) {
 
     private val adapter = BrowseByCategoryAdapter()
-//    private lateinit var logout: Button
+
     private lateinit var recyclerView: RecyclerView
     private lateinit var textView2: TextView
     private lateinit var image: ImageView
