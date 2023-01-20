@@ -8,14 +8,24 @@
 მომზადების წესებსა და მის ინგრედიენტებს.
 
 
+
+
+
+
 გამოყენებული ტექნოლოგიები:
 
 Single Activity Architecture
+
 Navigation Component
+
 Retrofit
+
 Recycler View
+
 Broadcast Receiver
+
 Notifications
+
 Firebase Authentication 
 
 
